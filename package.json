@@ -1,0 +1,34 @@
+{
+  "name": "Evo3-Hubot",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Michael Hopkins <mhopkins321@gmail.com>",
+  "description": "Evo3's rad chatbot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaeljhopkins/Evo3-Hubot.git"
+  },
+  "dependencies": {
+    "githubot": "^1.0.0",
+    "hubot": "^2.13.2",
+    "hubot-ambush": "0.0.3",
+    "hubot-calculator": "^0.4.0",
+    "hubot-conspire": "^1.0.0",
+    "hubot-dudesweet": "^0.1.0",
+    "hubot-euphemism": "^1.0.1",
+    "hubot-flirt": "^1.0.1",
+    "hubot-google-images": "^0.1.5",
+    "hubot-google-translate": "^0.2.0",
+    "hubot-googleapi": "^0.2.3",
+    "hubot-help": "^0.1.1",
+    "hubot-plusplus": "^1.1.5",
+    "hubot-pugme": "^0.1.0",
+    "hubot-qr": "0.0.2",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-scripts": "^2.16.1",
+    "hubot-sentiment": "^1.2.6",
+    "hubot-slack": "^3.3.0",
+    "hubot-urban": "^1.0.0",
+    "hubot-youtube": "^1.0.1"
+  }
+}
