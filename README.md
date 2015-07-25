@@ -1,3 +1,18 @@
+# ./bin/hubot contents
+
+```sh
+    set -e
+    export PATH="node_modules/.bin:node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+    export HUBOT_SLACK_TOKEN="xoxb-0000000000"
+    export HUBOT_SMS_SID=""
+    export HUBOT_SMS_TOKEN=""
+    export HUBOT_SMS_FROM=""
+    export HUBOT_PANDORA_BOTID=""
+    export BREWERYDB_API_KEY=""
+    exec node_modules/.bin/hubot "$@"
+
+```
+
 # Commands
  * `<username>++` - Gives the user a point
  * `<username>++ for <reason>` - Gives the user a point specifically for some reason
