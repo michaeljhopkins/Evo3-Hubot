@@ -5,7 +5,6 @@
 
 /* Change this to your Slack bot's OAuth token,
 * found in the Integrations tab */
-var SLACK_TOKEN = require('./config').slackToken;
 
 var https = require('https');
 var  _ws = require('ws');
@@ -14,7 +13,7 @@ var r = require('./responses');
 var counter = 1;
 var ws, slackID;
 
-https.get("https://slack.com/api/rtm.start?token=" + SLACK_TOKEN, function(res) {
+https.get("https://slack.com/api/rtm.start?token=xoxb-8198592355-ofo8uEI6DA6nPtYNZKCSOlLH", function(res) {
     console.log("Connecting to Slack API...");
     var data = "";
     res.on('data', function(chunk) {
