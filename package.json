@@ -30,6 +30,7 @@
     "hubot-sentiment": "^1.2.6",
     "hubot-slack": "^3.4.2",
     "hubot-urban": "^1.0.0",
+    "hubot-webhook": "^0.1.5",
     "hubot-youtube": "^1.0.1",
     "request": "^2.66.0",
     "twit": "^2.1.1",
