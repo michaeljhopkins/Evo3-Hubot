@@ -34,6 +34,6 @@ module.exports = (robot) ->
 			.post() (error, response, body) ->
         	response = JSON.parse(body)
         	if response.success == "true"
-          		msg.random squirrels
+          		msg.send msg.random squirrels
 
 
