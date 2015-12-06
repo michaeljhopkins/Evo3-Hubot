@@ -14,5 +14,6 @@
   "hubot-redis-brain",
   "hubot-sentiment",
   "hubot-urban",
+  "hubot-weather",
   "hubot-youtube"
 ]
