@@ -12,7 +12,7 @@
 #
 # Author:
 #   michaeljhopkins
-var request = require("request");
+request = require("request");
 
 squirrels = [
   "http://images.cheezburger.com/completestore/2011/11/2/aa83c0c4-2123-4bd3-8097-966c9461b30c.jpg",
@@ -30,7 +30,7 @@ squirrels = [
   "https://dl.dropboxusercontent.com/u/602885/github/squirrelmobster.jpeg",
 ]
 
-var options = { method: 'POST',
+options = { method: 'POST',
   url: 'https://evo3.deploybot.com/api/v1/deployments',
   headers: 
    { 'content-type': 'application/json','x-api-token': '779f59e08a53808b24298c18ca567ade671db8b4' },
